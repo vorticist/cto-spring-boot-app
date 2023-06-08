@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:buster
 
 
 RUN apt update && apt install -y wget unzip openjdk-17-jdk
